@@ -66,14 +66,13 @@ const Portfolio = () => {
             </nav>
  
             <div id="bg-image" className='absolute inset-0 w-full h-full overflow-hidden'>
-              <img src={largeImageUrl} alt="Background image" className="absolute opacity-10 overflow-hidden" />
+              <img src={largeImageUrl} alt="Background image" className="absolute opacity-30 overflow-hidden" />
             </div>
            
-            <div className="flex-1 flex flex-col items-center justify-center z-10 relative">
-                <div id="main-content" className="bg-blue-200/20 backdrop-blur-xs p-8 rounded-lg">
-                    <div className="rounded-3xl bg-red-500 h-20 w-20"></div>
-                    <h1 className="text-4xl text-white font-bold">lav designs and builds for the web.</h1>
-                    <p className="mt-4 text-lg text-gray-300">Welcome to my portfolio!</p>
+            <div className="flex flex-col items-center justify-center z-10 relative mt-16">
+                <div id="main-content" className="bg-blue-100/10 p-8 rounded-3xl border-2 border-stone-500">
+                    <div className="rounded-3xl bg-stone-500 h-20 w-20 my-10"></div>
+                    <h1 className="text-4xl text-[#E9FAFF] font-sans"><span className='text-stone-500'>lav</span> designs and builds for the web.</h1>
                 </div>
             </div>
           </div>
