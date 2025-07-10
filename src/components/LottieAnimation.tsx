@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import Lottie from 'lottie-react';
 
+// splash screen animation
 const LottieAnimation = ({ onComplete }) => {
   const [animationData, setAnimationData] = useState(null);
 

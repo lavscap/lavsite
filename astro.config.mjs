@@ -7,7 +7,7 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   site: "https://www.lavscap.com",
   base: "/",
-  trailingSlash: "always",
+  trailingSlash: "ignore",
   integrations: [react()],
   vite: {
     plugins:[tailwindcss()],
