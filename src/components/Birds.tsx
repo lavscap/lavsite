@@ -87,13 +87,13 @@ const Birds = () => {
     return (
         <div className="bg-[#D8E3E9] w-full h-screen flex items-center justify-center relative font-sans">
             <div className="birds absolute inset-0 flex items-center justify-center">
-                <img src="/birds/bird1.jpg" alt="Bird1" className="bird-1 w-1/2 md:w-1/4 h-3/4 object-cover opacity-0"/>
-                <img src="/birds/bird2.jpg" alt="Bird2" className="bird-2 w-1/2 md:w-1/4 h-3/4 object-cover opacity-0"/>
+                <img src="/birds/bird1.jpg" alt="Bird1" className="bird-1 w-1/3 md:w-1/4 h-3/4 object-cover opacity-0"/>
+                <img src="/birds/bird2.jpg" alt="Bird2" className="bird-2 w-1/3 md:w-1/4 h-3/4 object-cover opacity-0"/>
             </div>
             <div className="absolute left-1/2 top-0 bottom-0 w-px bg-[#FFFFFF] opacity-30 transform"></div>
-            <span className="t-1 text-8xl font-bold text-[#303030] z-10">LA</span>
-            <span className="t-2 text-8xl font-bold text-[#303030] z-10">V[S</span>
-            <span className="t-3 text-8xl font-bold text-[#303030] z-10">CAP]</span>
+            <span className="t-1 text-4xl md:text-8xl font-bold text-[#303030] z-10">LA</span>
+            <span className="t-2 text-4xl md:text-8xl font-bold text-[#303030] z-10">V[S</span>
+            <span className="t-3 text-4xl md:text-8xl font-bold text-[#303030] z-10">CAP]</span>
             <span className="t-bot absolute bottom-10 backdrop-blur-lg">PROGRAMMER</span>
         </div>
     )

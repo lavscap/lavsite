@@ -142,9 +142,9 @@ const Portfolio = () => {
                 <img src={largeImageUrl} alt="Background image" className="absolute opacity-30 overflow-hidden" />
               </div>
             
-              <div className="flex flex-col items-center justify-center z-10 relative mt-16">
-                  <div id="main-content" className="flex flex-col bg-blue-100/10 p-8 rounded-3xl border-2 border-stone-500 justify-center items-center m-50">
-                      <div className="rounded-3xl bg-stone-500 h-20 w-20 justify-center items-center m-10"></div>
+              <div className="flex flex-col items-center justify-center z-10 relative mt-8">
+                  <div id="main-content" className="flex flex-col bg-blue-100/10 p-8 rounded-3xl border-2 border-stone-500 justify-center items-center m-32">
+                      <div className="rounded-3xl bg-stone-500 h-20 w-20 justify-center items-center m-8"></div>
                       <h1 className='text-[#E9FAFF]'>lavisalive at gmail dot com</h1>
                   </div>
               </div>
